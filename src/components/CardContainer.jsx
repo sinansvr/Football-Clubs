@@ -18,8 +18,9 @@ const filteredData= data.filter((item)=>item.name.toLocaleLowerCase().includes(s
 
   return (
     <>
-      <h3 className="text-primary">UEFA Clubs</h3>
+      <h3 style={{color:'#00004A'}}>UEFA Clubs</h3>
       <div className="m-auto my-5 w-50 ">
+        
         <Form.Control onChange={handleChange} type="search" placeholder="Search Team..." className="w-100" />
       </div>
 
