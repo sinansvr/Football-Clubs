@@ -1,5 +1,5 @@
-import Logo from "../images/ucl-logo.png"
-
+// import Logo from "../images/ucl-logo.png"
+import Logo from "../images/UEFA_Champions_League.svg.png"
 const Header = () => {
   return (
     <div >

@@ -5,8 +5,9 @@
 }
 
 .App{
-    background-color: dimgrey;
+    background-color:rgb(210, 230, 236);
     min-height: 100vh;
     text-align: center;
+    color: #00004A!important;
     
 }
