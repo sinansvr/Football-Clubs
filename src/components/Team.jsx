@@ -1,25 +1,24 @@
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 import ListGroup from 'react-bootstrap/ListGroup';
 
-const Team = () => {
+const Team = ({name,logo,leagueLogo,league,estb,champ}) => {
   return (
     <Card style={{ width: '16rem' }}>
       <div className='logo'>
-      <Card.Img style={{ width: '10rem' }} variant="top" src="https://upload.wikimedia.org/wikipedia/tr/9/98/Real_Madrid.png?20220530202524" />
+      <Card.Img style={{ width: '10rem', marginTop:'1rem' }} variant="top" src={logo} />
       <Card.Body>
-        <Card.Title className='text-primary'>Real Madrid</Card.Title>
+        <Card.Title className='text-primary'>{name}</Card.Title>
         
       </Card.Body>
       </div>
       <div className='info'>
-      <Card.Img style={{ width: '6rem' }} variant="top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/LaLiga_Santander_logo_%28stacked%29.svg/512px-LaLiga_Santander_logo_%28stacked%29.svg.png" />
+      <Card.Img style={{ width: '6rem' ,marginTop:'1rem' }} variant="top" src={leagueLogo} />
       <Card.Body>
       <ListGroup>
-      <ListGroup.Item>League: La Liga</ListGroup.Item>
-      <ListGroup.Item>Established: 1899</ListGroup.Item>
-      <ListGroup.Item>Championships: 26</ListGroup.Item>
+      <ListGroup.Item>League: {league}</ListGroup.Item>
+      <ListGroup.Item>Established: {estb}</ListGroup.Item>
+      <ListGroup.Item>Championships: {champ}</ListGroup.Item>
       
     </ListGroup>
         

@@ -206,7 +206,7 @@ export const data = [
       info: [
         "League: Süper Lig",
         "Established: 1905",
-        "Championships: 22"
+        "Championships: 23"
       ]
     },
     {
@@ -226,7 +226,17 @@ export const data = [
       info: [
         "League: Süper Lig",
         "Established: 1907",
-        "Championships: 28"
+        "Championships: 19"
+      ]
+    },
+    {
+      name: "Trabzonspor",
+      logo: "https://upload.wikimedia.org/wikipedia/tr/a/ab/TrabzonsporAmblemi.png",
+      leagueLogo: "https://upload.wikimedia.org/wikipedia/tr/c/c2/S%C3%BCper_Lig_logosu.png?20150130212909",
+      info: [
+        "League: Süper Lig",
+        "Established: 1967",
+        "Championships: 7"
       ]
     }
   ];
